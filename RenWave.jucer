@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="bky6V9" name="RenWave" projectType="guiapp" jucerVersion="5.4.7"
+              bundleIdentifier="eu.phonkee.RenWave" cppLanguageStandard="latest"
+              companyName="phonkee.eu" maxBinaryFileSize="20971520">
+  <MAINGROUP id="IJUB1g" name="RenWave">
+    <GROUP id="{D600214C-BE36-A5B4-8AD3-4BF7BC1D62EC}" name="Tools">
+      <FILE id="d0KMQX" name="Tools.cpp" compile="1" resource="0" file="Source/Tools.cpp"/>
+      <FILE id="nwmiqB" name="Tools.h" compile="0" resource="0" file="Source/Tools.h"/>
+    </GROUP>
+    <GROUP id="{496EABAD-B552-A47B-C9CF-9A7696F82892}" name="Source">
+      <FILE id="sYyp8h" name="Settings.h" compile="0" resource="0" file="Source/Settings.h"/>
+      <FILE id="JIflkS" name="Project.cpp" compile="1" resource="0" file="Source/Project.cpp"/>
+      <FILE id="vjIMv1" name="Project.h" compile="0" resource="0" file="Source/Project.h"/>
+      <FILE id="d6ltpn" name="WaveWindow.h" compile="0" resource="0" file="Source/WaveWindow.h"/>
+      <FILE id="MdzwPg" name="WaveWindow.cpp" compile="1" resource="0" file="Source/WaveWindow.cpp"/>
+      <FILE id="wxj0wI" name="DesignWindow.cpp" compile="1" resource="0"
+            file="Source/DesignWindow.cpp"/>
+      <FILE id="iTol85" name="DesignWindow.h" compile="0" resource="0" file="Source/DesignWindow.h"/>
+      <FILE id="ZR5bTP" name="SafeTimelineLabel.cpp" compile="1" resource="0"
+            file="Source/SafeTimelineLabel.cpp"/>
+      <FILE id="itANHD" name="LookAndFeel.cpp" compile="1" resource="0" file="Source/LookAndFeel.cpp"/>
+      <FILE id="qpMsXK" name="LookAndFeel.h" compile="0" resource="0" file="Source/LookAndFeel.h"/>
+      <FILE id="IDKLFa" name="SafeTimelineLabel.h" compile="0" resource="0"
+            file="Source/SafeTimelineLabel.h"/>
+      <FILE id="de29Rp" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="h8LkOn" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="dNpWHm" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="../../Libs/ffmpeg/include/"
+                       osxCompatibility="10.14 SDK"/>
+        <CONFIGURATION isDebug="0" name="Release" headerPath="../../Libs/ffmpeg/include/"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <CLION targetFolder="Builds/CLion" clionXcodeEnabled="1">
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </CLION>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
